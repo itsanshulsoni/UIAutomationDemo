@@ -43,35 +43,22 @@ Please install homebrew if you don't have it to install yarn.
 yarn
 ```
 
-## ESLint
-
-integarte ESLint on VSCode
-https://github.com/Microsoft/vscode-eslint
-
-use the follwing settings on VSCode
-`CMD + SHIFT + P: Prefrences Open Settings(JSON)`
-
-```
-{
-	"eslint.autoFixOnSave": true,
-	"prettier.eslintIntegration": true,
-	"editor.formatOnSave": true,
-}
-```
 
 ## Test Execution
 
-Run `npm test` on the root folder `UIAutomationDemo/`
+Run the following command on the root folder `UIAutomationDemo/':
 
 ```sh
-npm test
+headless=FALSE npm run test
 ```
 
-** By default, test suite will run on ppm3 environment.
+Command for headless execution of the tests:
 
+```sh
+npm run test
+```
 
-
-Console:
+Console Screenshot:
 https://www.dropbox.com/s/foqvxzjeprpqot5/Teminal%20run.png?dl=0
 
 ## Test Execution with Custom command line (e.g. Environment)
@@ -84,7 +71,7 @@ npm run-script test:prod
 ## Test Report
 
 Test report gets generated at /UIAutomationDemo/report/test-report.html
-
+Screenshot:
 https://www.dropbox.com/s/j5ma8qror7n3z3t/SauceDemoAutomation_Test%20HTMLReport.png?dl=0
 
 
