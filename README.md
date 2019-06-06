@@ -61,7 +61,7 @@ use the follwing settings on VSCode
 
 ## Test Execution
 
-Run `npm test` on the root folder `SauceDemo_UI_Test/`
+Run `npm test` on the root folder `UIAutomationDemo/`
 
 ```sh
 npm test
@@ -72,7 +72,7 @@ npm test
 
 
 Console:
-![alt text](https://www.dropbox.com/s/foqvxzjeprpqot5/Teminal%20run.png?dl=0)
+https://www.dropbox.com/s/foqvxzjeprpqot5/Teminal%20run.png?dl=0
 
 ## Test Execution with Custom command line (e.g. Environment)
 
@@ -83,9 +83,9 @@ npm run-script test:prod
 
 ## Test Report
 
-Test report gets generated at /SauceDemo_UI_Test/report/test-report.html
+Test report gets generated at /UIAutomationDemo/report/test-report.html
 
-![alt text](https://www.dropbox.com/s/j5ma8qror7n3z3t/SauceDemoAutomation_Test%20HTMLReport.png?dl=0)
+https://www.dropbox.com/s/j5ma8qror7n3z3t/SauceDemoAutomation_Test%20HTMLReport.png?dl=0
 
 
 ## References
